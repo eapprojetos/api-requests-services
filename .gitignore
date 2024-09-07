@@ -3,3 +3,4 @@
 /.env
 /dist
 /prisma/migrations/migration_lock.toml
+.env
