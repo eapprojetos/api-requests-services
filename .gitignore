@@ -1,2 +1,5 @@
 /node_modules
 /prisma/.temp
+/.env
+/dist
+prisma/migrations/migration_lock.toml
