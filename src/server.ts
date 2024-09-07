@@ -25,7 +25,7 @@ server.post("/request/service", async (req: Request, res: Response) => {
         email,
         tell,
         service,
-        terms_accepted: !!terms_accepted,
+        terms_accepted,
     };
 
     try {
