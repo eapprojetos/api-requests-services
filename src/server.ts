@@ -26,6 +26,8 @@ server.post("/request/service", async (req: Request, res: Response) => {
         tell,
         service,
         terms_accepted,
+        created_at: new Date(),
+        updated_at: new Date(),
     };
 
     try {
